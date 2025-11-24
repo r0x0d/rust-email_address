@@ -12,6 +12,8 @@ Summary:        Rust crate providing an implementation of an RFC-compliant Email
 License:        MIT
 URL:            https://crates.io/crates/email_address
 Source:         %{crates_source}
+# Manually created patch for downstream crate metadata changes
+Patch:          email_address-fix-metadata.diff
 
 BuildRequires:  cargo-rpm-macros >= 24
 
